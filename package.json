@@ -18,6 +18,7 @@
 
   "scripts": {
     "z": "true",
+    "test": "eslint *.js*",
     "lint": "eslint *.js*",
     "a": "true"
   },
