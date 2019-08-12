@@ -18,7 +18,7 @@ extends:
     "package-json/sort-collections": error
     "package-json/namespaced-requires-public": error
     "package-json/public-requires-namespaced": error
-    "package-json/required-properties":
+    "package-json/require-properties":
         - error
         - - "private"
 
