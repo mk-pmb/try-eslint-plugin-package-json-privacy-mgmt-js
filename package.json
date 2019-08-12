@@ -28,7 +28,7 @@
   "devDependencies": {
     "@instaffogmbh/eslint-config-instaffo": "^1.2.2",
     "eslint": "^5.12.1",
-    "eslint-plugin-package-json": "^0.1.3"
+    "eslint-plugin-package-json": "zetlen/eslint-plugin-package-json#privacy-mgmt"
   },
 
   "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
