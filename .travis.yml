@@ -1,0 +1,19 @@
+#%YAML 1.2 # commented out b/c Travis flinches from YAML headers in YAML files.
+# -*- coding: UTF-8, tab-width: 4 -*-
+---
+
+language: node_js
+sudo: false
+
+os:
+  - linux
+
+node_js:
+  - "12"
+  - "10"
+  - "8"
+
+script:
+    - npm run lint
+
+...
