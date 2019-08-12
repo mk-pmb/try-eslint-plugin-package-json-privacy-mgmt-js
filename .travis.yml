@@ -1,9 +1,4 @@
-%YAML 1.2
-# -*- coding: UTF-8, tab-width: 4 -*-
----
-
 language: node_js
-sudo: false
 
 os:
   - linux
@@ -15,5 +10,3 @@ node_js:
 
 script:
     - npm run lint
-
-...
