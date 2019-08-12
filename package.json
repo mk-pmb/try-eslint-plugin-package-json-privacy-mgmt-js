@@ -1,0 +1,33 @@
+{ "name": "try-eslint-plugin-package-json-privacy-mgmt",
+  "version": "0.0.1",
+  "description": "Try the new features",
+  "keywords": [],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/try-eslint-plugin-package-json-privacy-mgmt-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/try-eslint-plugin-package-json-privacy-mgmt-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/try-eslint-plugin-package-json-privacy-mgmt-js/issues"
+  },
+  "contributors": [],
+
+  "private": true, "license": "ISC",
+
+  "scripts": {
+    "z": "true",
+    "lint": "eslint *.js*",
+    "a": "true"
+  },
+
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@instaffogmbh/eslint-config-instaffo": "^1.2.2",
+    "eslint": "^5.12.1"
+  },
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
