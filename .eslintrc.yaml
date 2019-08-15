@@ -6,20 +6,12 @@ env:
     node: true
     es6: true
 
-plugins:
-    - "package-json"
-
 extends:
     - "eslint:recommended"
-    - "@instaffogmbh/eslint-config-instaffo"
 
-"rules":
-    "package-json/valid-package-def": error
-    "package-json/sort-collections": error
-    "package-json/namespaced-requires-public": error
-    "package-json/public-requires-namespaced": error
-    "package-json/require-properties":
-        - error
-        - - "private"
+rules:
+    comma-dangle: ["error", {"objects": "always-multiline"}] # +4 errors
+    quotes: ["error", "single"] # +33 errors
+    semi: ["error", "never"] # +1 error
 
 ...

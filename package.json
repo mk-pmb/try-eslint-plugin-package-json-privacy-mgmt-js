@@ -15,20 +15,10 @@
   "contributors": [],
 
   "private": true, "license": "ISC",
-
-  "scripts": {
-    "z": "true",
-    "test": "eslint *.js*",
-    "lint": "eslint *.js*",
-    "a": "true"
-  },
-
-  "dependencies": {
-  },
+  "scripts": { "test": "eslint *.js*" },
   "devDependencies": {
-    "@instaffogmbh/eslint-config-instaffo": "^1.2.2",
     "eslint": "^5.12.1",
-    "eslint-plugin-package-json": "zetlen/eslint-plugin-package-json#privacy-mgmt"
+    "eslint-plugin-package-json": "zetlen/eslint-plugin-package-json#master"
   },
 
   "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"

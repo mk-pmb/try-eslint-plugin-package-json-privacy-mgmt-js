@@ -16,6 +16,7 @@ node_js:
 script:
     - "rm package-lock.json || true"
     - ls node_modules/eslint-plugin-package-json/docs/rules/
+    - nl -ba foo.json
     - npm test
 
 ...
