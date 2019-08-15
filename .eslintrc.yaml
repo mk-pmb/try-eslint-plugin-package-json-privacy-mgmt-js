@@ -11,15 +11,19 @@ plugins:
 
 extends:
     - "eslint:recommended"
-    - "@instaffogmbh/eslint-config-instaffo"
+    # - "@instaffogmbh/eslint-config-instaffo"
 
-"rules":
-    "package-json/valid-package-def": error
-    "package-json/sort-collections": error
-    "package-json/namespaced-requires-public": error
-    "package-json/public-requires-namespaced": error
-    "package-json/require-properties":
-        - error
-        - - "private"
+rules:
+    package-json/valid-package-def: error
+    package-json/sort-collections: error
+    package-json/namespaced-requires-public: error
+    package-json/public-requires-namespaced: error
+    package-json/require-properties:
+        -   error
+        -   -   private
+
+    semi: ["warn", "never"] # +1 warning
+    comma-dangle: ["warn", {"objects": "always-multiline"}] # +5 warnings
+    quotes: ["warn", "single"]  # +42 warnings
 
 ...
