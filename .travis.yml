@@ -1,4 +1,4 @@
-#%YAML 1.2 # commented out b/c Travis flinches from YAML headers in YAML files.
+%YAML 1.1
 # -*- coding: UTF-8, tab-width: 4 -*-
 ---
 
@@ -14,7 +14,8 @@ node_js:
   - "8"
 
 script:
+    - "rm package-lock.json || true"
     - ls node_modules/eslint-plugin-package-json/docs/rules/
-    - npm run lint
+    - npm test
 
 ...
