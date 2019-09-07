@@ -12,9 +12,4 @@ plugins:
 extends:
     - "eslint:recommended"
 
-rules:
-    comma-dangle: ["error", {"objects": "always-multiline"}] # +4 errors
-    quotes: ["error", "single"] # +33 errors
-    semi: ["error", "never"] # +1 error
-
 ...
