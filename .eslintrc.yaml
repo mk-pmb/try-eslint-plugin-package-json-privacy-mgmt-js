@@ -17,4 +17,12 @@ rules:
     quotes: ["error", "single"] # +33 errors
     semi: ["error", "never"] # +1 error
 
+overrides:
+    -   files:
+            - "**.json"
+        rules:
+            comma-dangle: ["error", "never"]
+            quotes: ["error", "double"]
+            semi: ["off"]
+
 ...
